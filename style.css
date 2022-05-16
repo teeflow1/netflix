@@ -135,10 +135,10 @@ font-size: 19px;
 text-align: center;
 padding-top: 0px;
 }
-.newslatter form{
+.newslatter input{
   width: 380px;
   max-width: 100%;
-  position: relative;
+  text-align:center;
 }
 .newslatter form input:first-child{
   display: inline-block;
@@ -160,4 +160,82 @@ padding-top: 0px;
   box-shadow: 0px 0px 5px #000,0px 0px 15px #858585;
   top: 6px;
   right: 6px;
+}
+.faq{
+  text-align: center;
+}
+#lastsec{
+  background: rgb(19,1,11);
+  background: linear-gradient(90deg, rgba(19,1,11,1) 0%, rgba(0,12,17,1) 52%);
+}
+.faq h1{
+  padding-bottom: 36px;
+  font-size: 3rem;
+}
+.questionss{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 40%;
+  align-items: center;
+  color: white;
+}
+.questionss li{
+  padding: 20px 30px;
+  margin: 5px;
+  font-size: 1.7em;
+  background-color: rgb(69, 69, 69);
+  color: white;
+  text-align: left;
+  width: 70%;
+  list-style-type: none;
+}
+.faq p{
+  padding-top: 53px;
+  font-size: 1.2rem;
+  font-weight: 170px;
+  color: white;
+}
+.inpute{
+  display: inline-grid;
+  align-items: center;
+  grid-template-columns: 50% 40%;
+}
+.inpute input{
+  width: 600px;
+  height: 3rem;
+}
+.inpute button{
+  height: 3.1rem;
+  width: 300px;
+  left: 20px;
+  text-align: center;
+  background-color: red;
+  font-size: 1.5rem;
+  padding: 15px 32px;
+  border-radius: 3px;
+}
+.footeer{
+  max-width: 70%;
+  margin: 1rem auto;
+  overflow: auto;
+}
+.footeer,
+.footeer a{
+  color: #999999;
+  font-size: 0.9rem;
+}
+.footeer p{
+  margin-bottom: 1.5rem;
+}
+.footeer .footer-clm{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.footeer li{
+  line-height: 2 4;
+}
+#foot{
+  background: rgb(19,1,11);
+  background: linear-gradient(90deg, rgba(19,1,11,1) 0%, rgba(0,12,17,1) 52%);
 }
